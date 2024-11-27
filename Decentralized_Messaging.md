@@ -2,7 +2,7 @@
 
 ## Overview
 
-The SolMeme Decentralized Messaging System (DMS) is a fully decentralized communication protocol built on Solana blockchain and IPFS, providing secure peer-to-peer messaging without central servers.
+The Chop Decentralized Messaging System (DMS) is a fully decentralized communication protocol built on Solana blockchain and IPFS, providing secure peer-to-peer messaging without central servers.
 
 ## Architecture
 
@@ -89,7 +89,7 @@ class P2PNetwork {
   }
 
   private setupMessageHandlers() {
-    this.node.handle('/solmeme/1.0.0', async ({ stream }) => {
+    this.node.handle('/Chop/1.0.0', async ({ stream }) => {
       const message = await this.receiveMessage(stream);
       await this.processMessage(message);
     });

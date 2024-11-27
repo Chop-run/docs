@@ -1,13 +1,13 @@
 # DAO-Based Content Moderation System
 
 ## Overview
-SolMeme implements a decentralized autonomous organization (DAO) for community-driven content moderation. This system ensures transparent, fair, and decentralized decision-making for content moderation.
+Chop implements a decentralized autonomous organization (DAO) for community-driven content moderation. This system ensures transparent, fair, and decentralized decision-making for content moderation.
 
 ## System Architecture
 
 ### Smart Contract Components
 1. **Governance Token**
-   - Name: SMOD (SolMeme Moderation)
+   - Name: CMOD (Chop Moderation)
    - Purpose: Voting rights in moderation decisions
    - Distribution: Earned through active participation
 

@@ -22,7 +22,7 @@ Chop implements a decentralized autonomous organization (DAO) for community-driv
 ```mermaid
 graph TD
     A[User Reports Content] -->|Creates| B[Report]
-    B -->|Threshold Check| C{50+ Reports?}
+    B -->|Threshold Check| C{100+ Reports?}
     C -->|Yes| D[Create Proposal]
     C -->|No| E[Add to Report Count]
 ```
@@ -33,7 +33,7 @@ graph TD
 4. System checks report threshold
 
 ### 2. Proposal Creation
-When content receives 50+ reports:
+When content receives 100+ reports:
 1. Automatic proposal creation
 2. 24-hour voting period starts
 3. Notification to token holders

@@ -47,7 +47,7 @@ graph LR
     B -->|Remove| D[Content Removed]
 ```
 
-- Each SMOD token = 1 vote
+- Each CMOD token = 1 vote
 - Options: Remove or Keep content
 - Voting period: 24 hours
 - Simple majority decides outcome
@@ -116,11 +116,11 @@ async function vote(proposalId: string, vote: 'remove' | 'keep'): Promise<boolea
 
 ### Token Distribution
 1. **Report Validation**
-   - Correct reports (leading to removal): 5 SMOD
-   - False reports: -2 SMOD
+   - Correct reports (leading to removal): 5 CMOD
+   - False reports: -2 CMOD
 
 2. **Voting Participation**
-   - Voting with majority: 2 SMOD
+   - Voting with majority: 2 CMOD
    - Active participation streak: Bonus multiplier
 
 3. **Moderation Quality**
